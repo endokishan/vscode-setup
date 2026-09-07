@@ -1,0 +1,272 @@
+{
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.activityBar.location": "default",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.statusBar.visible": true,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": true,
+  "editor.minimap.maxColumn": 120,
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCount": 5,
+  "editor.colorDecorators": true,
+  "editor.codeLens": false,
+  "editor.links": true,
+  "editor.matchBrackets": "always",
+  "editor.parameterHints.enabled": true,
+  "editor.lightbulb.enabled": "onCode",
+  "editor.hover.enabled": "on",
+  "editor.hover.delay": 300,
+  "breadcrumbs.enabled": true,
+  "workbench.sideBar.location": "left",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "Default",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 8,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.decorations.badges": true,
+  "git.decorations.enabled": true,
+  "git.autofetch": true,
+  "git.confirmSync": true,
+  "git.enableSmartCommit": false,
+  "git.autoStash": true,
+  "window.zoomLevel": 1,
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "window.commandCenter": false,
+  "window.title": "${activeEditorShort}",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "editor.fontFamily": "SF Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.7,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.showFoldingControls": "mouseover",
+  "editor.folding": true,
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "line",
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.occurrencesHighlight": "singleFile",
+  "editor.selectionHighlight": true,
+  "editor.scrollbar.horizontal": "auto",
+  "editor.scrollbar.vertical": "auto",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.glyphMargin": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "off",
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "files.associations": {
+    "Dockerfile*": "dockerfile",
+    "*.tf": "terraform",
+    "*.yaml": "yaml",
+    "*.yml": "yaml",
+    "*.yaml.tpl": "yaml",
+    "*.yml.tpl": "yaml",
+    ".env": "dotenv",
+    ".env.*": "dotenv",
+    ".env-*": "dotenv"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.git": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.git/objects/**": true
+  },
+  "scm.diffDecorations": "all",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.reduceMotion": "off",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.wrapTabs": false,
+  "workbench.editor.labelFormat": "medium",
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.decorations.colors": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 10,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.editorActionsLocation": "default",
+  "workbench.layoutControl.enabled": false,
+  "workbench.view.alwaysShowHeaderActions": false,
+  "terminal.integrated.fontFamily": "SF Mono",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.splitCwd": "inherited",
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.defaultLocation": "view",
+  "emmet.triggerExpansionOnTab": true,
+  "update.mode": "none",
+  "extensions.ignoreRecommendations": false,
+  "telemetry.telemetryLevel": "off",
+  "npm.enableRunFromFolder": true,
+  "problems.showCurrentInStatus": true,
+  "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.autoImportCompletions": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "todo-tree.ripgrep.ripgrep": "/opt/homebrew/bin/rg",
+  "remote.SSH.showLoginTerminal": true,
+  /*
+   * ============================================================
+   * YAML
+   * ============================================================
+   */
+  "yaml.validate": true,
+  "yaml.completion": true,
+  "yaml.hover": true,
+  "yaml.format.enable": true,
+  /*
+   * Kubernetes schema patterns.
+   *
+   * These patterns intentionally target Kubernetes directories
+   * instead of every YAML file in the repository.
+   */
+  "yaml.schemas": {
+    "kubernetes": [
+      "k8s/**/*.yaml",
+      "k8s/**/*.yml",
+      "kubernetes/**/*.yaml",
+      "kubernetes/**/*.yml",
+      "manifests/**/*.yaml",
+      "manifests/**/*.yml",
+      "clusters/**/*.yaml",
+      "clusters/**/*.yml",
+      "apps/**/*.yaml",
+      "apps/**/*.yml",
+      "resources/**/*.yaml",
+      "resources/**/*.yml",
+      "base/**/*.yaml",
+      "base/**/*.yml",
+      "overlays/**/*.yaml",
+      "overlays/**/*.yml",
+      "deployments/**/*.yaml",
+      "deployments/**/*.yml",
+      "services/**/*.yaml",
+      "services/**/*.yml",
+      "ingress/**/*.yaml",
+      "ingress/**/*.yml",
+      "rbac/**/*.yaml",
+      "rbac/**/*.yml",
+      "network/**/*.yaml",
+      "network/**/*.yml",
+      "storage/**/*.yaml",
+      "storage/**/*.yml",
+      "monitoring/**/*.yaml",
+      "monitoring/**/*.yml",
+      "crds/**/*.yaml",
+      "crds/**/*.yml"
+    ]
+  },
+  /*
+   * Kubernetes YAML formatting.
+   */
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.autoIndent": "full",
+    "editor.wordWrap": "off"
+  },
+  /*
+   * YAML templates.
+   */
+  "[yaml-template]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  /*
+   * Docker.
+   */
+  "[dockerfile]": {
+    "editor.formatOnSave": false
+  },
+  /*
+   * Python.
+   */
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+  /*
+   * JavaScript / TypeScript.
+   */
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  }
+}
